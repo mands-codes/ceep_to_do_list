@@ -11,6 +11,7 @@ class ListaDeNotas extends Component {
             <li className="lista-notas_item" key={index}>
               <CardNota 
               indice={index}
+              categoria={nota.categoria}
               titulo={nota.titulo} 
               texto={nota.texto}
               apagarNota={this.props.apagarNota}/>
